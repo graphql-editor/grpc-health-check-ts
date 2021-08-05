@@ -1,0 +1,7 @@
+/ts
+/proto
+go
+go.*
+.eslint*
+.gitignore
+tsconfig.json
