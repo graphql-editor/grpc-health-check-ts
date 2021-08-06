@@ -1,6 +1,6 @@
 {
   "name": "grpc-health-check-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript GRPC generated files library for standard health check",
   "main": "./dist/ts/main.js",
   "types": "./dist/ts/main.d.ts",
