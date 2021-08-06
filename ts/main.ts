@@ -126,7 +126,8 @@ class ServiceStatus {
 export class GrpcHealthCheck {
   private serviceStatus = new ServiceStatus();
   server: IHealthServer;
-  constructor() {
+  constructor(statusMap: StatusMap) {
+    this.serviceStatus.statusMap = statusMap;
     this.server = new GrpcHealthCheckServer(this.serviceStatus);
   }
 }
